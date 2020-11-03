@@ -26,7 +26,7 @@ function start(){ //looping para passar as imagens sozinho
     setInterval(()=>{
         $img.setAttribute('src', carrossel.obterUrlAtual())
         carrossel.irParaProximoElemento()
-    }, 3700)
+    }, 5000)
 }
 
 start()
