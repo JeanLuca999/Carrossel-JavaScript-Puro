@@ -60,7 +60,7 @@ button:hover, button:active {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100vw;
     height: auto;
