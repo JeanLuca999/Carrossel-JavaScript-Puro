@@ -1,3 +1,4 @@
 # Carrossel-JavaScript
 ***
-💻 ## Seu título h2
+💻 **Detalhes de implementação: ** <br>
+Para a criação deste carrossel em javascript eu me baseei no funcionamento de uma Lista Circular.
