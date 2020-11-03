@@ -10,8 +10,7 @@ function start(){
     setInterval(()=>{
         $img.setAttribute('src', c.obterUrlAtual())
         c.irParaProximoElemento()
-        console.log('a')
-    }, 1000)
+    }, 2100)
 }
 
 start()

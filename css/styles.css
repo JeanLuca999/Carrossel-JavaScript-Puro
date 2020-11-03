@@ -1,4 +1,45 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 165, 253);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
 #foto-carrossel {
-    width: 200px;
-    height: 300px;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.barra-botoes {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 60px;
+    font-weight: bolder;
+    width: 100px;
+    color: rgb(8, 8, 8);
+    background-color: rgb(127, 121, 245);;
+    outline: 0;
+    border: 0;
+}
+
+button:hover {
+    color: azure;
+}
+
+button:active {
+    transform: scale(-0.5%);
+}
+
+#avançar-foto {
+}
+#voltar-foto {
 }

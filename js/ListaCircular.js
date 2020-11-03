@@ -12,6 +12,8 @@ export default class ListaCircular {
         } else {
             this.final.proximo = { url: url, proximo: this.inicio, anterior: this.final }
             this.final = this.final.proximo
+            this.inicio.anterior = this.final
+            this.elementoAtual = this.inicio
         }
     }
 
