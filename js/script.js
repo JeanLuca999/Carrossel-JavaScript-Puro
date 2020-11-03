@@ -14,18 +14,16 @@ carrossel.adicionarConjuntoDeElementos(fotos)
 
 $avançar.addEventListener('click', ()=>{
     carrossel.irParaProximoElemento()
-    $img.setAttribute('src', carrossel.obterUrlAtual())
+    $img.setAttribute('src', carrossel.irParaProximoElemento())
 })
 
 $voltar.addEventListener('click', ()=>{
-    carrossel.irParaElementoAnterior()
-    $img.setAttribute('src', carrossel.obterUrlAtual())
+    $img.setAttribute('src', carrossel.irParaElementoAnterior())
 })
 
 function start(){ //looping para passar as imagens sozinho
     setInterval(()=>{
-        $img.setAttribute('src', carrossel.obterUrlAtual())
-        carrossel.irParaProximoElemento()
+        $img.setAttribute('src', carrossel.irParaProximoElemento())
     }, 5000)
 }
 

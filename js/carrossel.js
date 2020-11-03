@@ -25,13 +25,11 @@ export default class Carrossel {
 
     irParaProximoElemento(){
         this.elementoAtual = this.elementoAtual.proximo
+        return this.elementoAtual.url
     }
 
     irParaElementoAnterior(){
         this.elementoAtual = this.elementoAtual.anterior
-    }
-
-    obterUrlAtual(){
         return this.elementoAtual.url
     }
 }
