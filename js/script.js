@@ -1,4 +1,4 @@
-import ListaCircular from './ListaCircular.js'
+import ListaCircular from './listacircular.js'
 
 const fotos = [
     './images/1.jpg', './images/2.jpg', './images/3.jpg',
@@ -22,11 +22,11 @@ $voltar.addEventListener('click', ()=>{
     $img.setAttribute('src', carrossel.obterUrlAtual())
 })
 
-function start(){
+function start(){ //looping para passar as imagens sozinho
     setInterval(()=>{
         $img.setAttribute('src', carrossel.obterUrlAtual())
         carrossel.irParaProximoElemento()
-    }, 5000)
+    }, 3700)
 }
 
 start()
