@@ -1,4 +1,4 @@
-export default class ListaCircular {
+export default class Carrossel {
     constructor(){
         this.inicio = null
         this.final = null

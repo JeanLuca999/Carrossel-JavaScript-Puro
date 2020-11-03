@@ -59,6 +59,23 @@ button:hover, button:active {
     background-color: rgba(19, 104, 189, 0.76);
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(17, 115, 214);
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+
 @media(max-width: 600px) {
     h1 {
         font-size: 30px;
