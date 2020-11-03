@@ -93,4 +93,8 @@ footer a {
         font-size: 30px;
         width: 50px;
     }
+
+    footer {
+        margin-top: 50px;
+    }
 }
