@@ -1,45 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(69, 75, 82);
+}
+
 main {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(170, 165, 253);
+    background-color:rgba(119, 136, 153, 0.74);
     max-width: 600px;
     margin: 40px auto;
+    box-shadow: 0 3px 8px black;
 }
 
 #foto-carrossel {
-    margin-top: 20px;
+    margin: 20px 0;
     width: 500px;
     height: 500px;
 }
 
 .barra-botoes {
-    width: 300px;
+    position: absolute;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 button {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bolder;
     width: 100px;
     color: rgb(8, 8, 8);
-    background-color: rgb(127, 121, 245);;
-    outline: 0;
-    border: 0;
-}
-
-button:hover {
-    color: azure;
-}
-
-button:active {
-    transform: scale(-0.5%);
+    background-color: rgba(119, 136, 153, 0.705);
 }
 
 #avançar-foto {
 }
+
 #voltar-foto {
 }
