@@ -64,6 +64,7 @@ footer {
     bottom: 0;
     width: 100vw;
     height: auto;
+    margin-top: 30vh;
     background-color: rgb(17, 115, 214);
     padding: 10px 0;
     text-align: center;
@@ -92,9 +93,5 @@ footer a {
     button {
         font-size: 30px;
         width: 50px;
-    }
-
-    footer {
-        margin-top: 50px;
     }
 }
