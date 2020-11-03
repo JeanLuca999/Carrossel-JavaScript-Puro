@@ -6,4 +6,4 @@ Em uma Lista Circular cada elemento aponta para o seu próximo e o último eleme
 Optei por criar o carrossel utilizando uma classe javascript para deixar o código mais organizado e separar a abstração e definição da utilização final.
 <br>
 ***
-![preview]()
+![preview](preview.png)
