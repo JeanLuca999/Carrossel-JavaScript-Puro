@@ -1,4 +1,4 @@
-# Carrossel JavaScript Puro
+# Carrossel-JavaScript-Puro
 
 ## Sobre a implementação
 Para a criação deste carrossel em JavaScript puro eu me baseei no funcionamento de uma **Lista Circular**. <br>
