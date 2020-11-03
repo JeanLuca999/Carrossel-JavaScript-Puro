@@ -6,12 +6,14 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 h1 {
     margin-top: 30px;
+    font-size: 40px;
     text-align: center;
-    color: rgb(69, 75, 82);
+    color: rgba(119, 136, 153)
 }
 
 main {
@@ -28,7 +30,7 @@ main {
 
 #foto-carrossel {
     margin: 20px 0;
-    width: 500px;
+    width: 80%;
     height: 500px;
 }
 
@@ -43,13 +45,26 @@ main {
 button {
     font-size: 40px;
     font-weight: bolder;
-    width: 100px;
+    width: 90px;
     color: rgb(8, 8, 8);
     background-color: rgba(119, 136, 153, 0.705);
 }
 
-#avançar-foto {
-}
+@media(max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
 
-#voltar-foto {
+    main {
+        width: 80vw;
+    }
+
+    #foto-carrossel {
+        height: 400px;
+    }
+
+    button {
+        font-size: 30px;
+        width: 50px;
+    }
 }
