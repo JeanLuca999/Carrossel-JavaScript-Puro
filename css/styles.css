@@ -28,7 +28,7 @@ main {
     box-shadow: 0 3px 8px black;
 }
 
-#foto-carrossel {
+#foto-slide {
     margin: 20px 0;
     width: 80%;
     height: 500px;
@@ -86,7 +86,7 @@ footer a {
         width: 80vw;
     }
 
-    #foto-carrossel {
+    #foto-slide {
         height: 400px;
     }
 

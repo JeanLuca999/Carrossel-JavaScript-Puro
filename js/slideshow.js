@@ -1,4 +1,4 @@
-export default class Carrossel {
+export default class SlideShow {
     constructor(){
         this.inicio = null
         this.final = null
